@@ -25,8 +25,8 @@ public class TelegramBot extends TelegramLongPollingBot {
 
 	@Override
 	public String getBotUsername() {
-		// TODO Auto-generated method stub
-		return "OpenClade";
+		// TODO Auto-generated method stub â
+		return "OpenClade"; // daw
 	}
 	public void sendMessage(Message message, String text, boolean isReply) {
 		SendMessage send = new SendMessage(); // daws
