@@ -19,7 +19,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 	try {
 		telebot.registerBot(new TelegramBot());
 	} catch(TelegramApiException e) {
-		e.printStackTrace();
+		e.printStackTrace(); // comments
 	}
 	}
 
@@ -29,7 +29,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 		return "OpenClade";
 	}
 	public void sendMessage(Message message, String text, boolean isReply) {
-		SendMessage send = new SendMessage();
+		SendMessage send = new SendMessage(); // daws
 		send.enableMarkdown(true);
 		send.setChatId(message.getChatId().toString());
 		if(isReply) {
