@@ -25,7 +25,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 
 	@Override
 	public String getBotUsername() {
-		// TODO Auto-generated method stub в
+		// TODO Auto-generated method stub пїЅ
 		return "OpenClade"; // daw
 	}
 	public void sendMessage(Message message, String text, boolean isReply) {
@@ -52,10 +52,10 @@ public class TelegramBot extends TelegramLongPollingBot {
 				this.sendMessage(message, "Hello, Brother", true);
 				break;
 			case "/start":
-				this.sendMessage(message, "Стартуем!", false);
+				this.sendMessage(message, "РЎС‚Р°СЂС‚СѓРµРј!", false);
 				break;
 			default:
-				this.sendMessage(message, "Начни игру:  /start", false);
+				this.sendMessage(message, "РќР°РїРёС€РёС‚Рµ:  /start", false);
 		}
 			}
 			
