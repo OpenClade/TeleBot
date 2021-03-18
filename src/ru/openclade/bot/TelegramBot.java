@@ -49,7 +49,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 		if(message != null && message.hasText()) {
 			switch(message.getText()) {
 			case "/help":
-				this.sendMessage(message, "Hello, Brother", true);
+				this.sendMessage(message, "Hello, Bdswawasrother", true);
 				break;
 			case "/start":
 				this.sendMessage(message, "Стартуем!", false);
